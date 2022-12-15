@@ -10,7 +10,7 @@ const Blog = ({ blog }) => {
           Published by <span className="author">{blog.author}</span> on{" "}
           <span className="date">{blog.date}</span>
         </p> */}
-        <p className="blog-body">{blog.body}</p>
+        <p className="blog-body">{blog.body}</p> 
         <button className="blog-btn">Read more</button>
       </div>
     </div>
